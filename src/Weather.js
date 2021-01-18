@@ -20,78 +20,16 @@ export default function Weather() {
       </form>
       <h3>Tallinn</h3>
       <h1>-7°C|F</h1>
-      <h3>Monday 08:00</h3>
-      <h3>Mostly Cloudy</h3>
+      <h4>Monday 08:00</h4>
+      <h4>Mostly Cloudy</h4>
       <img
         src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
         alt="Mostly Cloudy"
       />
-      <div className="row">
+      <div className="row p-2">
         <div className="col-sm">Precipitation: 15%</div>
         <div className="col-sm">Humidity: 60%</div>
         <div className="col-sm">Wind: 12 km/h</div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <ul>
-            <li>MON</li>
-            <li>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-                alt="Mostly Cloudy"
-              />
-            </li>
-            <li>-7° -16°</li>
-          </ul>
-        </div>
-        <div className="col">
-          <ul>
-            <li>MON</li>
-            <li>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-                alt="Mostly Cloudy"
-              />
-            </li>
-            <li>-7° -16°</li>
-          </ul>
-        </div>
-        <div className="col">
-          <ul>
-            <li>MON</li>
-            <li>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-                alt="Mostly Cloudy"
-              />
-            </li>
-            <li>-7° -16°</li>
-          </ul>
-        </div>
-        <div className="col">
-          <ul>
-            <li>MON</li>
-            <li>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-                alt="Mostly Cloudy"
-              />
-            </li>
-            <li>-7° -16°</li>
-          </ul>
-        </div>
-        <div className="col">
-          <ul>
-            <li>MON</li>
-            <li>
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-                alt="Mostly Cloudy"
-              />
-            </li>
-            <li>-7° -16°</li>
-          </ul>
-        </div>
       </div>
     </div>
   );

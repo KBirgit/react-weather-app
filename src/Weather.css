@@ -1,0 +1,18 @@
+.Weather {
+  color: white;
+  background-color: #e8caca;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 680px;
+  border-radius: 10px;
+}
+.Weather li {
+  list-style: none;
+}
+.Weather form {
+  padding: 20px;
+}
+.Weather .weekDay {
+  font-size: 12px;
+}
