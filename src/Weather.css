@@ -16,3 +16,6 @@
 .Weather .weekDay {
   font-size: 12px;
 }
+.Weather canvas {
+  display: inline-block;
+}
