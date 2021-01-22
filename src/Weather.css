@@ -1,6 +1,6 @@
 .Weather {
   color: white;
-  background-color: #e8caca;
+  background-color: #b1c3e6;
   margin: auto;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -13,9 +13,10 @@
 .Weather form {
   padding: 20px;
 }
-.Weather .weekDay {
-  font-size: 12px;
-}
 .Weather canvas {
-  display: inline-block;
+  display: block;
+  margin: auto;
+}
+.Weather .unit {
+  font-size: 16px;
 }
