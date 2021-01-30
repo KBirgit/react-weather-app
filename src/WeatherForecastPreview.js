@@ -9,9 +9,11 @@ export default function WeatherForecastPreview(props) {
   }
 
   function temperature() {
-    let temperature = Math.round(props.data.main.temp);
-
-    return `${temperature}°C`;
+    let forecastTemperature = Math.round(props.data.main.temp);
+    if (props.unit === "fahrenheit") {
+      forecastTemperature = Math.round((forecastTemperature * 9) / 5 + 32);
+    }
+    return `${forecastTemperature}°`;
   }
   return (
     <div className="WeatherForecastPreview col">
