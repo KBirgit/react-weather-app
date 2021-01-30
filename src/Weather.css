@@ -4,7 +4,7 @@
   margin: auto;
   text-align: center;
   font-family: Arial, sans-serif;
-  max-width: 680px;
+  max-width: 566px;
   border-radius: 10px;
 }
 .Weather li {
@@ -12,6 +12,7 @@
 }
 .Weather form {
   padding: 20px;
+  margin: auto 20px auto 30px;
 }
 .Weather canvas {
   display: block;
@@ -23,4 +24,16 @@
 .Weather p {
   font-size: 20px;
   margin: 0;
+}
+.Weather .searchIcon {
+  display: inline-block;
+  position: relative;
+  right: 30px;
+  width: 60px;
+}
+.Weather button {
+  color: gray;
+}
+.Weather button:hover {
+  color: white;
 }
